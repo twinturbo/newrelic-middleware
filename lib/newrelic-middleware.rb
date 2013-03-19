@@ -12,3 +12,5 @@ module NewRelicMiddleware
     end
   end
 end
+
+require 'newrelic-middleware/railtie' if defined?(Rails)
